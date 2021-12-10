@@ -10,6 +10,8 @@ const productsUrl = baseUrl + "products";
         const response = await fetch(productsUrl);
         const json = await response.json();
 
+        console.log(json);
+
         container.innerHTML = "";
 
         json.forEach(function (product) {
