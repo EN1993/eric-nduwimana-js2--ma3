@@ -14,10 +14,10 @@ const productsUrl = baseUrl + "products";
 
         container.innerHTML = "";
 
-        json.forEach(function (product) {
+        json.data.forEach(function (product) {
             container.innerHTML += `<a class="product" href="detail.html?id=${product.id}">
-                                        <h4>${product.name}</h4>
-                                        <p>Price: ${product.price}</p>
+                                        <h4>${product.attributes.Name}</h4>
+                                        <p>Price: ${product.attributes.Price}</p>
                                     </a>`;
         });
 
