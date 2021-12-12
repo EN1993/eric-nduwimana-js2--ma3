@@ -31,12 +31,12 @@ form > div {
 }
 
 form input {
-  width: 100%;
+  width: 318px;
   padding: 0.4rem;
 }
 
 button {
-  width: 100%;
+  width: 335px;
   height: 40px;
   background: var(--primary-colour);
   color: white;
@@ -75,16 +75,16 @@ button {
 }
 
 .message {
-  width: 100%;
+  width: 300px;
   padding: 1rem;
   border: 1px solid grey;
   color: grey;
 }
 
 .message.error {
-  border-color: red;
+  border-color: rgb(131, 7, 7);
   color: white;
-  background: red;
+  background: rgb(54, 3, 3);
 }
 
 .message.warning {
